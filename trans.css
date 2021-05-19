@@ -1,0 +1,231 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  width: 100%;
+  font-family: 'Montserrat';
+}
+.nav-link
+{
+  font-weight: 600;
+}
+.navbar-nav,.navbar-brand
+{
+  font-family: 'Montserrat';
+  
+  
+}
+.navbar{
+  background-color: black !important;
+  
+}
+h2
+{
+  font-family: "Roboto";
+}
+.avatar {
+    vertical-align: middle;
+    width: 100%;
+    height: 285px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 10%;
+    padding: 20px;
+  }
+  .jkr
+  {
+    font-size: 50px;
+    margin-top:30%;
+    color:white;
+    font-family: 'Montserrat';
+  }
+  .mob-jkr
+  {
+    font-size: 25px;
+    color:white;
+    font-family: 'Montserrat';
+    margin: 2%;
+    text-align: center;
+  }
+  .jkrr
+  {
+    font-size: 35px;
+    color:white;
+    font-family: 'Montserrat';
+  }
+  .mob-jkrr
+  {
+    font-size: 25px;
+    color:white;
+    font-family: 'Montserrat';
+    margin: 2%;
+    text-align: center;
+  }
+  .deepshd {
+    font-family: 'Montserrat';
+    color: #e0dfdc;
+    background-color:black;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+  .a-icon{
+    padding: 10px 13px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 24px;
+    text-align: center;
+    
+  }
+  .a-icon:hover{
+    color: unset;
+    border-radius: 50%;
+    background-color: #bbb;
+  }
+  .skill
+  {
+    font-size: 30px;
+    margin-top: 5%;
+    color:white;
+    display: inline-block;
+  }
+  .skill::after
+  {
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    background: #04b4e0;
+    left: 0;
+    bottom: -5px;
+    animation:underline 1s;
+    margin-bottom: 10px;
+  }
+  
+  .skill-con
+  {
+    font-size: 25px;
+    color:white;
+    font-family: 'Montserrat';
+    margin: 2%;
+    
+  }
+  .w-card{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border:1px solid #04b4e0;
+    transition: .5s;
+    color: #bbb;
+    text-align: center;
+    
+}
+  .c-card{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border:1px solid #04b4e0;
+    transition: .5s;
+    color: #bbb;
+    text-align: center;
+    
+}
+.c-card:hover
+{
+    background-color: white;
+    color: #04b4e0;
+}
+.c-icon
+{
+  font-size: 30px;
+  padding-bottom: 10px;
+
+}
+h5{
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+h4{
+  font-size: 20px;
+  font-family: 'Montserrat';
+  padding: 10px;
+  font-weight: 600;
+}
+
+  th,td{
+      padding-bottom: 15px;
+      font-weight: 600;
+    
+  }
+.ab-table{
+  margin-top: 5px;
+  border: 1px #bbb;
+}
+@keyframes underline {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+  
+}
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translateX(80px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes transitionIn
+{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to
+    {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+@keyframes scaleDown {
+	to { opacity: 0; transform: scale(.8); }
+}
+
+@keyframes scaleUp {
+	from { opacity: 0; transform: scale(.8); }
+}
+
+@keyframes scaleUpDown {
+	from { opacity: 0; transform: scale(1.2); }
+}
+
+@keyframes scaleDownUp {
+	to { opacity: 0; transform: scale(1.2); }
+}
+
+@keyframes scaleDownCenter {
+	to { opacity: 0; transform: scale(.7); }
+}
+
+@keyframes scaleUpCenter {
+	from { opacity: 0; transform: scale(.7); }
+}
